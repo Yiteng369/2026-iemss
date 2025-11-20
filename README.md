@@ -32,7 +32,7 @@ The study shows that short-window rolling means and recent lagged CO₂ values d
 
 ## 📂 Repository Structure
 
-```text
+
 ├── data/                 # Dataset preparation scripts or links
 ├── features/             # Temporal feature engineering utilities
 ├── models/               # LSTM architecture and training code
@@ -40,3 +40,26 @@ The study shows that short-window rolling means and recent lagged CO₂ values d
 ├── experiments/          # Training and evaluation pipelines
 ├── results/              # Metrics, attribution plots and logs
 └── iemss2026_Yiteng.pdf  # Paper PDF
+
+## 📚 Citation
+
+If you use this code in your research, please cite:
+
+
+@inproceedings{zhang2026explainable,
+  title        = {Explainable LSTM Forecasts for Hourly CO2 Concentrations},
+  author       = {Zhang, Yiteng and Pakrashi, Arjun and Dev, Soumyabrata},
+  booktitle    = {International Environmental Modelling and Software Society (iEMSs)},
+  year         = {2026}
+}
+
+
+------------------------------------------------------------------------
+
+## Acknowledgements
+
+-   CO₂ observations from the Zugspitze high-altitude monitoring station
+
+-   Integrated Gradients method following Sundararajan et al. (2017)
+
+-   LSTM-based time series forecasting inspired by recent work on atmospheric and air quality prediction
