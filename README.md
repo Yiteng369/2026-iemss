@@ -30,17 +30,6 @@ The study shows that short-window rolling means and recent lagged CO₂ values d
 
 ---
 
-## 📂 Repository Structure
-
-
-├── data/                 # Dataset preparation scripts or links
-├── features/             # Temporal feature engineering utilities
-├── models/               # LSTM architecture and training code
-├── explainability/       # Integrated Gradients implementation and wrappers
-├── experiments/          # Training and evaluation pipelines
-├── results/              # Metrics, attribution plots and logs
-└── iemss2026_Yiteng.pdf  # Paper PDF
-
 ## 📚 Citation
 
 If you use this code in your research, please cite:
